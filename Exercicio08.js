@@ -2,7 +2,6 @@
 
 const prompt = require('prompt-sync')()
 
-let contador = 1
 
 
 
