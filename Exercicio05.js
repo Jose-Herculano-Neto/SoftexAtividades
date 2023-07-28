@@ -2,7 +2,7 @@
 
 const prompt = require('prompt-sync')()
 
-var numero = prompt("Digite um numeto: ")
+let numero = prompt("Digite um numeto: ")
 
 if(numero % 2 === 0){
     console.log("O número é Par.")

@@ -2,9 +2,9 @@
 
 const prompt = require('prompt-sync')()
 
-var num1 = prompt("Digite o primeiro numero: ")
-var num2 = prompt("Digite o segundo numero: ")
-var num3 = prompt("Digite o terceiro numero: ")
-var media = (parseInt(num1) + parseInt(num2) + parseInt(num3))/3
+let num1 = prompt("Digite o primeiro numero: ")
+let num2 = prompt("Digite o segundo numero: ")
+let num3 = prompt("Digite o terceiro numero: ")
+let media = (parseInt(num1) + parseInt(num2) + parseInt(num3))/3
 
 console.log("A média é: " + media)
